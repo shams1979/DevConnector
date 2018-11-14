@@ -1,0 +1,414 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mongoose',
+1 verbose cli   'passport',
+1 verbose cli   'passport-jwt',
+1 verbose cli   'jsonwebtoken',
+1 verbose cli   'body-parser',
+1 verbose cli   'bcrypt-js',
+1 verbose cli   'validator' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mongoose
+8 silly fetchPackageMetaData passport
+9 silly fetchPackageMetaData passport-jwt
+10 silly fetchPackageMetaData jsonwebtoken
+11 silly fetchPackageMetaData body-parser
+12 silly fetchPackageMetaData bcrypt-js
+13 silly fetchPackageMetaData validator
+14 silly fetchNamedPackageData mongoose
+15 silly mapToRegistry name mongoose
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry data Result {
+18 silly mapToRegistry   raw: 'mongoose',
+18 silly mapToRegistry   scope: null,
+18 silly mapToRegistry   escapedName: 'mongoose',
+18 silly mapToRegistry   name: 'mongoose',
+18 silly mapToRegistry   rawSpec: '',
+18 silly mapToRegistry   spec: 'latest',
+18 silly mapToRegistry   type: 'tag' }
+19 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+20 silly fetchNamedPackageData passport
+21 silly mapToRegistry name passport
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry data Result {
+24 silly mapToRegistry   raw: 'passport',
+24 silly mapToRegistry   scope: null,
+24 silly mapToRegistry   escapedName: 'passport',
+24 silly mapToRegistry   name: 'passport',
+24 silly mapToRegistry   rawSpec: '',
+24 silly mapToRegistry   spec: 'latest',
+24 silly mapToRegistry   type: 'tag' }
+25 silly mapToRegistry uri https://registry.npmjs.org/passport
+26 silly fetchNamedPackageData passport-jwt
+27 silly mapToRegistry name passport-jwt
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'passport-jwt',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'passport-jwt',
+30 silly mapToRegistry   name: 'passport-jwt',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/passport-jwt
+32 silly fetchNamedPackageData jsonwebtoken
+33 silly mapToRegistry name jsonwebtoken
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry data Result {
+36 silly mapToRegistry   raw: 'jsonwebtoken',
+36 silly mapToRegistry   scope: null,
+36 silly mapToRegistry   escapedName: 'jsonwebtoken',
+36 silly mapToRegistry   name: 'jsonwebtoken',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtoken
+38 silly fetchNamedPackageData body-parser
+39 silly mapToRegistry name body-parser
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry data Result {
+42 silly mapToRegistry   raw: 'body-parser',
+42 silly mapToRegistry   scope: null,
+42 silly mapToRegistry   escapedName: 'body-parser',
+42 silly mapToRegistry   name: 'body-parser',
+42 silly mapToRegistry   rawSpec: '',
+42 silly mapToRegistry   spec: 'latest',
+42 silly mapToRegistry   type: 'tag' }
+43 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+44 silly fetchNamedPackageData bcrypt-js
+45 silly mapToRegistry name bcrypt-js
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'bcrypt-js',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'bcrypt-js',
+48 silly mapToRegistry   name: 'bcrypt-js',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/bcrypt-js
+50 silly fetchNamedPackageData validator
+51 silly mapToRegistry name validator
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry data Result {
+54 silly mapToRegistry   raw: 'validator',
+54 silly mapToRegistry   scope: null,
+54 silly mapToRegistry   escapedName: 'validator',
+54 silly mapToRegistry   name: 'validator',
+54 silly mapToRegistry   rawSpec: '',
+54 silly mapToRegistry   spec: 'latest',
+54 silly mapToRegistry   type: 'tag' }
+55 silly mapToRegistry uri https://registry.npmjs.org/validator
+56 verbose request uri https://registry.npmjs.org/passport
+57 verbose request no auth needed
+58 info attempt registry request try #1 at 10:56:45 PM
+59 verbose request id 534c2e6d5d0dbfbf
+60 http request GET https://registry.npmjs.org/passport
+61 verbose request uri https://registry.npmjs.org/passport-jwt
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 10:56:45 PM
+64 http request GET https://registry.npmjs.org/passport-jwt
+65 verbose request uri https://registry.npmjs.org/jsonwebtoken
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 10:56:45 PM
+68 http request GET https://registry.npmjs.org/jsonwebtoken
+69 verbose request uri https://registry.npmjs.org/bcrypt-js
+70 verbose request no auth needed
+71 info attempt registry request try #1 at 10:56:45 PM
+72 http request GET https://registry.npmjs.org/bcrypt-js
+73 verbose request uri https://registry.npmjs.org/validator
+74 verbose request no auth needed
+75 info attempt registry request try #1 at 10:56:45 PM
+76 http request GET https://registry.npmjs.org/validator
+77 verbose request uri https://registry.npmjs.org/mongoose
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 10:56:45 PM
+80 verbose etag "451GX0ZT8K0HNJ0VAX3Z72AVJ"
+81 http request GET https://registry.npmjs.org/mongoose
+82 verbose request uri https://registry.npmjs.org/body-parser
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 10:56:45 PM
+85 verbose etag "5a8e66f0-236ea"
+86 verbose lastModified Thu, 22 Feb 2018 6:45:04 GMT
+87 http request GET https://registry.npmjs.org/body-parser
+88 http 200 https://registry.npmjs.org/passport
+89 verbose headers { date: 'Sun, 10 Jun 2018 21:56:47 GMT',
+89 verbose headers   'content-type': 'application/json; charset=UTF-8',
+89 verbose headers   'transfer-encoding': 'chunked',
+89 verbose headers   connection: 'keep-alive',
+89 verbose headers   'set-cookie': [ '__cfduid=d882b24ac365ab94dee5ee6ad3ababf881528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+89 verbose headers   'cache-control': 'max-age=300',
+89 verbose headers   'cf-cache-status': 'HIT',
+89 verbose headers   'cf-ray': '428f1707abb73572-LHR',
+89 verbose headers   etag: 'W/"e278d181adb76b6f0ba10bf95acc8dc1"',
+89 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+89 verbose headers   'last-modified': 'Sun, 27 May 2018 11:55:54 GMT',
+89 verbose headers   vary: 'accept-encoding, accept',
+89 verbose headers   server: 'cloudflare',
+89 verbose headers   'content-encoding': 'gzip' }
+90 silly get cb [ 200,
+90 silly get   { date: 'Sun, 10 Jun 2018 21:56:47 GMT',
+90 silly get     'content-type': 'application/json; charset=UTF-8',
+90 silly get     'transfer-encoding': 'chunked',
+90 silly get     connection: 'keep-alive',
+90 silly get     'set-cookie': [ '__cfduid=d882b24ac365ab94dee5ee6ad3ababf881528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+90 silly get     'cache-control': 'max-age=300',
+90 silly get     'cf-cache-status': 'HIT',
+90 silly get     'cf-ray': '428f1707abb73572-LHR',
+90 silly get     etag: 'W/"e278d181adb76b6f0ba10bf95acc8dc1"',
+90 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+90 silly get     'last-modified': 'Sun, 27 May 2018 11:55:54 GMT',
+90 silly get     vary: 'accept-encoding, accept',
+90 silly get     server: 'cloudflare',
+90 silly get     'content-encoding': 'gzip' } ]
+91 verbose get saving passport to C:\Users\Pabani\AppData\Roaming\npm-cache\registry.npmjs.org\passport\.cache.json
+92 verbose correctMkdir C:\Users\Pabani\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+93 http 200 https://registry.npmjs.org/body-parser
+94 verbose headers { date: 'Sun, 10 Jun 2018 21:56:47 GMT',
+94 verbose headers   'content-type': 'application/json; charset=UTF-8',
+94 verbose headers   'transfer-encoding': 'chunked',
+94 verbose headers   connection: 'keep-alive',
+94 verbose headers   'set-cookie': [ '__cfduid=d05192be013c63802424f8afcd23c0f391528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+94 verbose headers   'cache-control': 'max-age=300',
+94 verbose headers   'cf-cache-status': 'HIT',
+94 verbose headers   'cf-ray': '428f1707db6c35f6-LHR',
+94 verbose headers   etag: 'W/"0c30737fdb784def06c8d90e97cde7e0"',
+94 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+94 verbose headers   'last-modified': 'Sat, 26 May 2018 18:42:21 GMT',
+94 verbose headers   vary: 'accept-encoding, accept',
+94 verbose headers   server: 'cloudflare',
+94 verbose headers   'content-encoding': 'gzip' }
+95 silly get cb [ 200,
+95 silly get   { date: 'Sun, 10 Jun 2018 21:56:47 GMT',
+95 silly get     'content-type': 'application/json; charset=UTF-8',
+95 silly get     'transfer-encoding': 'chunked',
+95 silly get     connection: 'keep-alive',
+95 silly get     'set-cookie': [ '__cfduid=d05192be013c63802424f8afcd23c0f391528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+95 silly get     'cache-control': 'max-age=300',
+95 silly get     'cf-cache-status': 'HIT',
+95 silly get     'cf-ray': '428f1707db6c35f6-LHR',
+95 silly get     etag: 'W/"0c30737fdb784def06c8d90e97cde7e0"',
+95 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+95 silly get     'last-modified': 'Sat, 26 May 2018 18:42:21 GMT',
+95 silly get     vary: 'accept-encoding, accept',
+95 silly get     server: 'cloudflare',
+95 silly get     'content-encoding': 'gzip' } ]
+96 verbose get saving body-parser to C:\Users\Pabani\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+97 verbose correctMkdir C:\Users\Pabani\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+98 http 200 https://registry.npmjs.org/jsonwebtoken
+99 verbose headers { date: 'Sun, 10 Jun 2018 21:56:48 GMT',
+99 verbose headers   'content-type': 'application/json; charset=UTF-8',
+99 verbose headers   'transfer-encoding': 'chunked',
+99 verbose headers   connection: 'keep-alive',
+99 verbose headers   'set-cookie': [ '__cfduid=d7d13c1a41fc8a6e24e80b60e4a215d871528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+99 verbose headers   'cache-control': 'max-age=300',
+99 verbose headers   'cf-cache-status': 'HIT',
+99 verbose headers   'cf-ray': '428f1707c81534dc-LHR',
+99 verbose headers   etag: 'W/"94a1acf397607dfc8a26aab73698c7e0"',
+99 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+99 verbose headers   'last-modified': 'Wed, 30 May 2018 15:17:29 GMT',
+99 verbose headers   vary: 'accept-encoding, accept',
+99 verbose headers   server: 'cloudflare',
+99 verbose headers   'content-encoding': 'gzip' }
+100 silly get cb [ 200,
+100 silly get   { date: 'Sun, 10 Jun 2018 21:56:48 GMT',
+100 silly get     'content-type': 'application/json; charset=UTF-8',
+100 silly get     'transfer-encoding': 'chunked',
+100 silly get     connection: 'keep-alive',
+100 silly get     'set-cookie': [ '__cfduid=d7d13c1a41fc8a6e24e80b60e4a215d871528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+100 silly get     'cache-control': 'max-age=300',
+100 silly get     'cf-cache-status': 'HIT',
+100 silly get     'cf-ray': '428f1707c81534dc-LHR',
+100 silly get     etag: 'W/"94a1acf397607dfc8a26aab73698c7e0"',
+100 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+100 silly get     'last-modified': 'Wed, 30 May 2018 15:17:29 GMT',
+100 silly get     vary: 'accept-encoding, accept',
+100 silly get     server: 'cloudflare',
+100 silly get     'content-encoding': 'gzip' } ]
+101 verbose get saving jsonwebtoken to C:\Users\Pabani\AppData\Roaming\npm-cache\registry.npmjs.org\jsonwebtoken\.cache.json
+102 verbose correctMkdir C:\Users\Pabani\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+103 http 200 https://registry.npmjs.org/validator
+104 verbose headers { date: 'Sun, 10 Jun 2018 21:56:47 GMT',
+104 verbose headers   'content-type': 'application/json; charset=UTF-8',
+104 verbose headers   'transfer-encoding': 'chunked',
+104 verbose headers   connection: 'keep-alive',
+104 verbose headers   'set-cookie': [ '__cfduid=d05192be013c63802424f8afcd23c0f391528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+104 verbose headers   'cache-control': 'max-age=300',
+104 verbose headers   'cf-cache-status': 'HIT',
+104 verbose headers   'cf-ray': '428f1707cb6335f6-LHR',
+104 verbose headers   etag: 'W/"d05019860a76fabe270663c061058452"',
+104 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+104 verbose headers   'last-modified': 'Sun, 03 Jun 2018 21:10:50 GMT',
+104 verbose headers   vary: 'accept-encoding, accept',
+104 verbose headers   server: 'cloudflare',
+104 verbose headers   'content-encoding': 'gzip' }
+105 silly get cb [ 200,
+105 silly get   { date: 'Sun, 10 Jun 2018 21:56:47 GMT',
+105 silly get     'content-type': 'application/json; charset=UTF-8',
+105 silly get     'transfer-encoding': 'chunked',
+105 silly get     connection: 'keep-alive',
+105 silly get     'set-cookie': [ '__cfduid=d05192be013c63802424f8afcd23c0f391528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+105 silly get     'cache-control': 'max-age=300',
+105 silly get     'cf-cache-status': 'HIT',
+105 silly get     'cf-ray': '428f1707cb6335f6-LHR',
+105 silly get     etag: 'W/"d05019860a76fabe270663c061058452"',
+105 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+105 silly get     'last-modified': 'Sun, 03 Jun 2018 21:10:50 GMT',
+105 silly get     vary: 'accept-encoding, accept',
+105 silly get     server: 'cloudflare',
+105 silly get     'content-encoding': 'gzip' } ]
+106 verbose get saving validator to C:\Users\Pabani\AppData\Roaming\npm-cache\registry.npmjs.org\validator\.cache.json
+107 verbose correctMkdir C:\Users\Pabani\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+108 http 200 https://registry.npmjs.org/mongoose
+109 verbose headers { date: 'Sun, 10 Jun 2018 21:56:47 GMT',
+109 verbose headers   'content-type': 'application/json; charset=UTF-8',
+109 verbose headers   'transfer-encoding': 'chunked',
+109 verbose headers   connection: 'keep-alive',
+109 verbose headers   'set-cookie': [ '__cfduid=d24280cec55b64eb39064721ea044ed3d1528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+109 verbose headers   'cache-control': 'max-age=300',
+109 verbose headers   'cf-cache-status': 'HIT',
+109 verbose headers   'cf-ray': '428f1707d83c3446-LHR',
+109 verbose headers   etag: 'W/"bee4e1451b4ef0c6255fd06e50346a1f"',
+109 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+109 verbose headers   'last-modified': 'Mon, 04 Jun 2018 16:09:58 GMT',
+109 verbose headers   vary: 'accept-encoding, accept',
+109 verbose headers   server: 'cloudflare',
+109 verbose headers   'content-encoding': 'gzip' }
+110 silly get cb [ 200,
+110 silly get   { date: 'Sun, 10 Jun 2018 21:56:47 GMT',
+110 silly get     'content-type': 'application/json; charset=UTF-8',
+110 silly get     'transfer-encoding': 'chunked',
+110 silly get     connection: 'keep-alive',
+110 silly get     'set-cookie': [ '__cfduid=d24280cec55b64eb39064721ea044ed3d1528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+110 silly get     'cache-control': 'max-age=300',
+110 silly get     'cf-cache-status': 'HIT',
+110 silly get     'cf-ray': '428f1707d83c3446-LHR',
+110 silly get     etag: 'W/"bee4e1451b4ef0c6255fd06e50346a1f"',
+110 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+110 silly get     'last-modified': 'Mon, 04 Jun 2018 16:09:58 GMT',
+110 silly get     vary: 'accept-encoding, accept',
+110 silly get     server: 'cloudflare',
+110 silly get     'content-encoding': 'gzip' } ]
+111 verbose get saving mongoose to C:\Users\Pabani\AppData\Roaming\npm-cache\registry.npmjs.org\mongoose\.cache.json
+112 verbose correctMkdir C:\Users\Pabani\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+113 http 404 https://registry.npmjs.org/bcrypt-js
+114 verbose headers { date: 'Sun, 10 Jun 2018 21:56:48 GMT',
+114 verbose headers   'content-type': 'application/json',
+114 verbose headers   'content-length': '21',
+114 verbose headers   connection: 'keep-alive',
+114 verbose headers   'set-cookie': [ '__cfduid=d86d9bd96e94254393a992887004d8d631528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+114 verbose headers   'cache-control': 'max-age=300',
+114 verbose headers   'cf-cache-status': 'MISS',
+114 verbose headers   'cf-ray': '428f1707bd603488-LHR',
+114 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+114 verbose headers   vary: 'accept-encoding, accept',
+114 verbose headers   server: 'cloudflare' }
+115 silly get cb [ 404,
+115 silly get   { date: 'Sun, 10 Jun 2018 21:56:48 GMT',
+115 silly get     'content-type': 'application/json',
+115 silly get     'content-length': '21',
+115 silly get     connection: 'keep-alive',
+115 silly get     'set-cookie': [ '__cfduid=d86d9bd96e94254393a992887004d8d631528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+115 silly get     'cache-control': 'max-age=300',
+115 silly get     'cf-cache-status': 'MISS',
+115 silly get     'cf-ray': '428f1707bd603488-LHR',
+115 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+115 silly get     vary: 'accept-encoding, accept',
+115 silly get     server: 'cloudflare' } ]
+116 silly fetchPackageMetaData Error: Not found : bcrypt-js
+116 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+116 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+116 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+116 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+116 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+116 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+116 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+116 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+116 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+116 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+116 silly fetchPackageMetaData  error for bcrypt-js { Error: Not found : bcrypt-js
+116 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+116 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+116 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+116 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+116 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+116 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+116 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+116 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+116 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+116 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12) pkgid: 'bcrypt-js', statusCode: 404, code: 'E404' }
+117 http 200 https://registry.npmjs.org/passport-jwt
+118 verbose headers { date: 'Sun, 10 Jun 2018 21:56:48 GMT',
+118 verbose headers   'content-type': 'application/json; charset=UTF-8',
+118 verbose headers   'transfer-encoding': 'chunked',
+118 verbose headers   connection: 'keep-alive',
+118 verbose headers   'set-cookie': [ '__cfduid=df91d3d89af702571237936b9a4cf7e151528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+118 verbose headers   'cache-control': 'max-age=300',
+118 verbose headers   'cf-cache-status': 'REVALIDATED',
+118 verbose headers   'cf-ray': '428f1707bbda35ae-LHR',
+118 verbose headers   etag: 'W/"0978e0a56e20afecb6459a8c59b3e974"',
+118 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+118 verbose headers   'last-modified': 'Sun, 27 May 2018 11:55:01 GMT',
+118 verbose headers   vary: 'accept-encoding, accept',
+118 verbose headers   server: 'cloudflare',
+118 verbose headers   'content-encoding': 'gzip' }
+119 silly get cb [ 200,
+119 silly get   { date: 'Sun, 10 Jun 2018 21:56:48 GMT',
+119 silly get     'content-type': 'application/json; charset=UTF-8',
+119 silly get     'transfer-encoding': 'chunked',
+119 silly get     connection: 'keep-alive',
+119 silly get     'set-cookie': [ '__cfduid=df91d3d89af702571237936b9a4cf7e151528667807; expires=Mon, 10-Jun-19 21:56:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+119 silly get     'cache-control': 'max-age=300',
+119 silly get     'cf-cache-status': 'REVALIDATED',
+119 silly get     'cf-ray': '428f1707bbda35ae-LHR',
+119 silly get     etag: 'W/"0978e0a56e20afecb6459a8c59b3e974"',
+119 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+119 silly get     'last-modified': 'Sun, 27 May 2018 11:55:01 GMT',
+119 silly get     vary: 'accept-encoding, accept',
+119 silly get     server: 'cloudflare',
+119 silly get     'content-encoding': 'gzip' } ]
+120 verbose get saving passport-jwt to C:\Users\Pabani\AppData\Roaming\npm-cache\registry.npmjs.org\passport-jwt\.cache.json
+121 verbose correctMkdir C:\Users\Pabani\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+122 silly rollbackFailedOptional Starting
+123 silly rollbackFailedOptional Finishing
+124 silly runTopLevelLifecycles Finishing
+125 silly install printInstalled
+126 verbose stack Error: Not found : bcrypt-js
+126 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+126 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+126 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+126 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+126 verbose stack     at emitTwo (events.js:106:13)
+126 verbose stack     at Request.emit (events.js:191:7)
+126 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+126 verbose stack     at emitOne (events.js:96:13)
+126 verbose stack     at Request.emit (events.js:188:7)
+126 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+127 verbose statusCode 404
+128 verbose pkgid bcrypt-js
+129 verbose cwd C:\DevConnector
+130 error Windows_NT 10.0.17134
+131 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongoose" "passport" "passport-jwt" "jsonwebtoken" "body-parser" "bcrypt-js" "validator"
+132 error node v6.10.0
+133 error npm  v3.10.10
+134 error code E404
+135 error 404 Not found : bcrypt-js
+136 error 404
+137 error 404 'bcrypt-js' is not in the npm registry.
+138 error 404 You should bug the author to publish it (or use the name yourself!)
+139 error 404 Note that you can also install from a
+140 error 404 tarball, folder, http url, or git url.
+141 verbose exit [ 1, true ]
